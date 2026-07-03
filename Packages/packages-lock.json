@@ -11,15 +11,14 @@
       "hash": "ec9ae4c799d724d780e689ea73a289a8925c531f"
     },
     "com.greenworms.skullstrike.cinematic": {
-      "version": "https://github.com/Greenworms/GW.Cinematic.SkullStrike.git#4c000a5121332dfaf5eb04fb3f857d27e904cddd",
+      "version": "file:../../GW.Cinematic.SkullStrike",
       "depth": 0,
-      "source": "git",
+      "source": "local",
       "dependencies": {
         "com.greenworms.cinematic.core": "0.1.0",
         "com.unity.timeline": "1.8.10",
         "com.unity.ugui": "2.0.0"
-      },
-      "hash": "4c000a5121332dfaf5eb04fb3f857d27e904cddd"
+      }
     },
     "com.unity.addressables": {
       "version": "2.8.1",
