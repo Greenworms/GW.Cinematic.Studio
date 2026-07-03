@@ -25,9 +25,11 @@ MonoBehaviour:
   shellPrefab: {fileID: 5106010660794161609, guid: e843dc18ca6441942bb09ce048bec831, type: 3}
   muzzleFlashPrefab: {fileID: 3586260925981427000, guid: 5372c143fb9d8f046a6632b14eac0a42, type: 3}
   impactPrefab: {fileID: 1000010191825552, guid: 83e55d3418297934fab882559d009285, type: 3}
-  deathVfxPrefab: {fileID: 0}
+  deathVfxPrefab: {fileID: 8367907410985086596, guid: 0b493b97a8e419d46903c1b023460740, type: 3}
   fireClip: {fileID: 8300000, guid: 80fcb1a77cae6c0498a4ab521473acb6, type: 3}
   impactClip: {fileID: 0}
+  killMarkerClip: {fileID: 8300000, guid: 8a7c6ad7ee25a8b4ba81f62e71dc4259, type: 3}
   footstepClips: []
   enemyHudPrefab: {fileID: 4648512679870123409, guid: 628b3f09d534c4e80a19cd9a27a58f77, type: 3}
   crosshairSprite: {fileID: 0}
+  killBannerSprite: {fileID: 21300000, guid: 997ac216ed59c4b10a97280c63cf5f9c, type: 3}
