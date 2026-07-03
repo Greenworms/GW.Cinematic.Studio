@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6753a39b91eef47ffb852efa24ee481b, type: 3}
+  m_Name: skullstrike-five-v-five-clash
+  m_EditorClassIdentifier: Greenworms.Cinematics.Core::Greenworms.Cinematics.CinematicScenarioManifest
+  scenarioId: skullstrike-five-v-five-clash
+  gameId: skullstrike
+  displayName: SkullStrike Five versus Five Clash
+  objective: "Hai \u0111\u1ED9i n\u0103m ng\u01B0\u1EDDi giao tranh; hero ng\u1EAFm
+    b\u1EAFn v\xE0 h\u1EA1 m\u1EE5c ti\xEAu quy\u1EBFt \u0111\u1ECBnh."
+  templateId: skullstrike.five-v-five-clash
+  contentPackageVersion: 0.1.0
+  scenePath: Assets/Campaigns/skullstrike/skullstrike-five-v-five-clash/skullstrike-five-v-five-clash.unity
+  timelinePath: Assets/Campaigns/skullstrike/skullstrike-five-v-five-clash/skullstrike-five-v-five-clash.playable
+  targetDuration: 12
+  outputFormat: 0
+  targetResolution: {x: 1920, y: 1080}
+  targetFrameRate: 60
