@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.greenworms.cinematic.core": "https://github.com/Greenworms/GW.Cinematic.Core.git",
-    "com.greenworms.skullstrike.cinematic": "https://github.com/Greenworms/GW.Cinematic.SkullStrike.git",
+    "com.greenworms.skullstrike.cinematic": "https://github.com/Greenworms/GW.Cinematic.SkullStrike.git#5c187f8e1f34fa7676d7142b7acab80139309a76",
     "com.unity.addressables": "2.8.1",
     "com.unity.cinemachine": "2.10.5",
     "com.unity.inputsystem": "1.18.0",
