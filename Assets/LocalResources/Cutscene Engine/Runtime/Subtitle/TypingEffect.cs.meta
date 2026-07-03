@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c057c83c4115415e8b4e5d362cba371f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Runtime/Subtitle/TypingEffect.cs
+  uploadId: 872950

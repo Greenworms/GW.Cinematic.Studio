@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 49bacaf31560429d80939bb2b6c6332a
+timeCreated: 1750739618
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Runtime/Light/LightBehaviour.cs
+  uploadId: 872950

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f935f87ab92c4a07b02177bcd95ba05f
+timeCreated: 1772371416
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Runtime/Utility/TimelineJsonDataTypes.cs
+  uploadId: 872950

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c18b289010a84d1478360d69a3c02025
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Editor/CutsceneEngine.Editor.asmdef
+  uploadId: 872950

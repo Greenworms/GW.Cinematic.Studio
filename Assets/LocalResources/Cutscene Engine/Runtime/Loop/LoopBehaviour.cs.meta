@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 92b1b9c107838dd4abc943a9aa1fd059
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Runtime/Loop/LoopBehaviour.cs
+  uploadId: 872950

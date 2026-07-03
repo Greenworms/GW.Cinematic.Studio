@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 48ba5e4458204337a4023f2ddee71f02
+timeCreated: 1749887796
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Editor/Transform/TransformClipInspector.cs
+  uploadId: 872950

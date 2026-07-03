@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 8cbb00b53e934569afa9d4212a74db6e
+timeCreated: 1749557151
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Editor/VolumeControl/VolumeClipEditor.cs
+  uploadId: 872950

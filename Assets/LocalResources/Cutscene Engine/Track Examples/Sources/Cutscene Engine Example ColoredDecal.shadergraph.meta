@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c70fc577ec22e44419c801f6eaf41095
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Track Examples/Sources/Cutscene Engine Example
+    ColoredDecal.shadergraph
+  uploadId: 872950

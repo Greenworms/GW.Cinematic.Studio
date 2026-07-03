@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 2c7ff31202a9423dae250e2817f86bb8
+timeCreated: 1749612786
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Editor/VolumeControl/VolumeTrackInspector.cs
+  uploadId: 872950

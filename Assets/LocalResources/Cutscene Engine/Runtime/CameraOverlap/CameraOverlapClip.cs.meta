@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 3bda8587218244cfada1362a7517eb78
+timeCreated: 1749463970
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Runtime/CameraOverlap/CameraOverlapClip.cs
+  uploadId: 872950

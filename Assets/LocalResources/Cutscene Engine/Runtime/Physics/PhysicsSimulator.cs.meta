@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8d0bc314b498497e8456283d28a0ae39
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 07fc7f5e8bc9ee7448129a0ea20e88fb, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Runtime/Physics/PhysicsSimulator.cs
+  uploadId: 872950

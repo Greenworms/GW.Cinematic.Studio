@@ -1,0 +1,16 @@
+{
+    "name": "CutsceneEngine.Samples",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1458dd12fd969fe408471a2a938ec1de"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

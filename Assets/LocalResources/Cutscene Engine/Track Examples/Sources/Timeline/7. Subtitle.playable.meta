@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f5fcb5ac2e033b44f98b1ed4c29e9c76
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Track Examples/Sources/Timeline/7. Subtitle.playable
+  uploadId: 872950

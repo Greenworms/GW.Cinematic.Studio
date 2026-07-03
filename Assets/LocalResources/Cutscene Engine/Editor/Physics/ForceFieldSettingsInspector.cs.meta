@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 152c1b002c060be4bb32e4b3588fbad1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Editor/Physics/ForceFieldSettingsInspector.cs
+  uploadId: 872950

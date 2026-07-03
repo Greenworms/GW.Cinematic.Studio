@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: b44cc7f34e9c4870bdf610cdf9667a82
+timeCreated: 1750739618
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Runtime/Light/LightClip.cs
+  uploadId: 872950

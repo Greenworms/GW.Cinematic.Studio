@@ -1,0 +1,71 @@
+{
+    "name": "CutsceneEngine.Editor",
+    "rootNamespace": "CutsceneEngineEditor",
+    "references": [
+        "Unity.Timeline",
+        "Unity.Timeline.Editor",
+        "UnityEditor.UI",
+        "UnityEngine.UI",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "CutsceneEngine",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.Localization",
+        "Unity.Localization.Editor",
+        "Unity.Cinemachine",
+        "Unity.RenderPipelines.HighDefinition.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Cinemachine",
+        "Unity.VisualEffectGraph.Runtime",
+        "Unity.RenderPipelines.Universal.2D.Runtime",
+        "Unity.Postprocessing.Runtime",
+        "Unity.Postprocessing.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.localization",
+            "expression": "",
+            "define": "LOCALIZATION"
+        },
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "",
+            "define": "CINEMACHINE"
+        },
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "2.8",
+            "define": "CINEMACHINE_2_8_OR_NEWER"
+        },
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "3.0.0",
+            "define": "CINEMACHINE_3_OR_NEWER"
+        },
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "",
+            "define": "HDRP"
+        },
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "",
+            "define": "URP"
+        },
+        {
+            "name": "com.unity.visualeffectgraph",
+            "expression": "",
+            "define": "VFX"
+        }
+    ],
+    "noEngineReferences": false
+}

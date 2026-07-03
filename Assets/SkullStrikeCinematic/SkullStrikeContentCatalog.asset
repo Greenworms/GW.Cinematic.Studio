@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e6f230fd5c3140bba73520e580377e3, type: 3}
+  m_Name: SkullStrikeContentCatalog
+  m_EditorClassIdentifier: Greenworms.Cinematics.SkullStrike::Greenworms.Cinematics.SkullStrike.SkullStrikeCinematicContentCatalog
+  mapPrefab: {fileID: 4029064587927198078, guid: 11e265b5893434c99becb9e98548aefd, type: 3}
+  shooterPrefab: {fileID: 4010181235093330958, guid: 1526ec1f886a947e4b706aeb03c275aa, type: 3}
+  victimPrefab: {fileID: 9205575093453461950, guid: 55b93d30dd5fa4402971edafb52abe5d, type: 3}
+  backgroundActorPrefabs:
+  - {fileID: 9028106671566249116, guid: d8373c4d439924ad9abd2f455fb48e77, type: 3}
+  - {fileID: 2136270559138900775, guid: 257047d0c42054ff48726738a15745d5, type: 3}
+  - {fileID: 5461464737104094718, guid: 978396d9ecda74865bb2227135aeb45e, type: 3}
+  firstPersonWeaponPrefab: {fileID: 5164548977432959910, guid: 9529dc5d84b6c426ab780fcfaeac2ef6, type: 3}
+  projectilePrefab: {fileID: 8480898279440189636, guid: 1afda4f47171c4cf6b315c4fe3116bf7, type: 3}
+  muzzleFlashPrefab: {fileID: 0}
+  impactPrefab: {fileID: 0}
+  deathVfxPrefab: {fileID: 0}
+  fireClip: {fileID: 0}
+  impactClip: {fileID: 0}
+  footstepClips: []
+  enemyHudPrefab: {fileID: 4648512679870123409, guid: 628b3f09d534c4e80a19cd9a27a58f77, type: 3}
+  crosshairSprite: {fileID: 0}

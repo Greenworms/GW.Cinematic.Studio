@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9de03b00013e4698950c4e1b76e97ce9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Runtime/Impulse/ImpulseTrack.cs
+  uploadId: 872950

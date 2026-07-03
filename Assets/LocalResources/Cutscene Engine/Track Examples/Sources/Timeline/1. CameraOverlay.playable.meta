@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f970f804680b6b943a2c8607a74b01d8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Track Examples/Sources/Timeline/1. CameraOverlay.playable
+  uploadId: 872950

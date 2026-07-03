@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 3ed8b4676d814064b70c3933266d2121
+timeCreated: 1752283254
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Runtime/Physics/PhysicsRecorder.cs
+  uploadId: 872950

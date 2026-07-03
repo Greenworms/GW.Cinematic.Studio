@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: ce5318bd05b293d49857c90adbba16d3
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Runtime/Physics/RuntimePhysicsRecordingPlayback.cs
+  uploadId: 872950

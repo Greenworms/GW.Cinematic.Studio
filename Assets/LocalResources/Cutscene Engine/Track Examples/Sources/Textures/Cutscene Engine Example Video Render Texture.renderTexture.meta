@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c15ea29fa72b91445a8420addefe20c9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Track Examples/Sources/Textures/Cutscene Engine
+    Example Video Render Texture.renderTexture
+  uploadId: 872950

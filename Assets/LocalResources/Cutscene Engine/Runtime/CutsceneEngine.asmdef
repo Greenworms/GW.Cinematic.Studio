@@ -1,0 +1,78 @@
+{
+    "name": "CutsceneEngine",
+    "rootNamespace": "CutsceneEngine",
+    "references": [
+        "Unity.Timeline",
+        "Unity.TextMeshPro",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.Localization",
+        "Unity.Cinemachine",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.HighDefinition.Runtime",
+        "Cinemachine",
+        "Unity.VisualEffectGraph.Runtime",
+        "Unity.RenderPipelines.Universal.2D.Runtime",
+        "Unity.InputSystem",
+        "Unity.Postprocessing.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "",
+            "define": "CINEMACHINE"
+        },
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "2.8",
+            "define": "CINEMACHINE_2_8_OR_NEWER"
+        },
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "3.0.0",
+            "define": "CINEMACHINE_3_OR_NEWER"
+        },
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "1.0.0",
+            "define": "TMP"
+        },
+        {
+            "name": "com.unity.ugui",
+            "expression": "2.0.0",
+            "define": "TMP"
+        },
+        {
+            "name": "com.unity.localization",
+            "expression": "",
+            "define": "LOCALIZATION"
+        },
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "",
+            "define": "URP"
+        },
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "",
+            "define": "HDRP"
+        },
+        {
+            "name": "com.unity.visualeffectgraph",
+            "expression": "",
+            "define": "VFX"
+        },
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "",
+            "define": "INPUT_SYSTEM"
+        }
+    ],
+    "noEngineReferences": false
+}

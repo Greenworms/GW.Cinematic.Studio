@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 28de740dfba02994bb53b81e6e75d7a6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Track Examples/Sources/Timeline/5. Loop.playable
+  uploadId: 872950

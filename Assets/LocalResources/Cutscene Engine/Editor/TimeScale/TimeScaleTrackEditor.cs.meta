@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 2feaecd0ac054747af6fbd223cf38dd1
+timeCreated: 1750321948
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Editor/TimeScale/TimeScaleTrackEditor.cs
+  uploadId: 872950

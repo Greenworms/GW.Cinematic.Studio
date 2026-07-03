@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b4f31f090100e394f9f780e74ccb9334
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 54986aafcb6fcc14b9289e8c62f59004, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Runtime/Utility/CutsceneActorPreview.cs
+  uploadId: 872950

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 13b50cd8837cbaa48b10468cce3c1fa1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Track Examples/Sources/Timeline/10. Video.playable
+  uploadId: 872950

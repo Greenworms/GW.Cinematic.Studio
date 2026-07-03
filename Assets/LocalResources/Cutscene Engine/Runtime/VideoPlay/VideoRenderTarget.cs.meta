@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 8110641c9eb74813a9fcdd18bb14a880
+timeCreated: 1750143975
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Runtime/VideoPlay/VideoRenderTarget.cs
+  uploadId: 872950

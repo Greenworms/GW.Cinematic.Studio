@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d58633c8bb7da504daa34571bce40502
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 13400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Track Examples/Sources/Cutscene Engine Example
+    Physics Material.physicMaterial
+  uploadId: 872950

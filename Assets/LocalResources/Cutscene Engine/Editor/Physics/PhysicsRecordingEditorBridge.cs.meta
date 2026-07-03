@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 6a0667bc960934d49a3cf65c363d78dd
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Editor/Physics/PhysicsRecordingEditorBridge.cs
+  uploadId: 872950

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d9c1501703c93c446a36ef764340c61a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Track Examples/Sources/Materials/Cutscene Engine
+    Example Lamp Light.mat
+  uploadId: 872950

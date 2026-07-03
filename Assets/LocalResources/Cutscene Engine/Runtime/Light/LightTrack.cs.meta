@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: fd9ca6002cba4e23be181cf2d72f8810
+timeCreated: 1750739618
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Runtime/Light/LightTrack.cs
+  uploadId: 872950

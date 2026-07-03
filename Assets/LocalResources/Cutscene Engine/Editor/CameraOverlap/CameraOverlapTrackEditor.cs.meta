@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 56f447d6cd9142bc847882e9fc1c927d
+timeCreated: 1750428065
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Editor/CameraOverlap/CameraOverlapTrackEditor.cs
+  uploadId: 872950

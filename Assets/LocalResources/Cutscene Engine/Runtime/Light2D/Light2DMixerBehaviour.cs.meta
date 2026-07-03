@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 5e12b1cd02db8fd4cb36efd8578eb049
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Runtime/Light2D/Light2DMixerBehaviour.cs
+  uploadId: 872950

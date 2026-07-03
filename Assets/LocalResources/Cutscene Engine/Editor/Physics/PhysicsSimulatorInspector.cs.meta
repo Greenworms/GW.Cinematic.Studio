@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 69a6bc4e051b418d91cc28923d235c2d
+timeCreated: 1752280803
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Editor/Physics/PhysicsSimulatorInspector.cs
+  uploadId: 872950

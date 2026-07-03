@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: c1dfb0aa1582446d9bd16de9313e23cd
+timeCreated: 1769496417
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Editor/CutsceneActorPreviewInspector.cs
+  uploadId: 872950

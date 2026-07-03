@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cb96e2ba97fa8b240a7ffa871a452c0d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Track Examples/Sources/Materials/Cutscene Engine
+    Example Line.mat
+  uploadId: 872950

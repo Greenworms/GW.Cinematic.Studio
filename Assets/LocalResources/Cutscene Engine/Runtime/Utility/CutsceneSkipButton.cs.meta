@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 140092734f759cc468d0fe0cc87f4ca6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: d12ea44ecd3fe604180460189d9b6f24, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Runtime/Utility/CutsceneSkipButton.cs
+  uploadId: 872950

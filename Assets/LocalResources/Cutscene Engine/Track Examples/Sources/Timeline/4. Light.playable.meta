@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 450e03770827cec4c9ffc82d16187626
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Track Examples/Sources/Timeline/4. Light.playable
+  uploadId: 872950

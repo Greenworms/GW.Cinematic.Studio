@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 603202b67cd1b8b4d8a5a72708f4b575
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 327883
+  packageName: Cutscene Engine
+  packageVersion: 1.5
+  assetPath: Assets/Cutscene Engine/Track Examples/Sources/Timeline/2. Color.playable
+  uploadId: 872950
