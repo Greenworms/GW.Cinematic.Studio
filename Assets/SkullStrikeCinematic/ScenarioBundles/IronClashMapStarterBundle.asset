@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d4f2d6b9af84b3d8e1fbf9f6f2d4a10, type: 3}
+  m_Name: IronClashMapStarterBundle
+  m_EditorClassIdentifier: Greenworms.Cinematics.SkullStrike::Greenworms.Cinematics.SkullStrike.SkullStrikeScenarioBundle
+  bundleId: ironclash-map-starter
+  displayName: IronClash Map Starter
+  description: Minimal map-only SkullStrike starter bundle for editor-friendly scene
+    authoring.
+  scenarioId: skullstrike-map-starter
+  gameId: skullstrike
+  templateId: skullstrike.scene-authoring.bundle
+  recorderOutputFolder: Recordings/SkullStrike
+  contentCatalog: {fileID: 11400000, guid: 1cd84efb2e2354b0e8d6f480268ed317, type: 2}
+  outputFormat: 0
+  targetResolution: {x: 1920, y: 1080}
+  targetFrameRate: 60
+  targetDuration: 10
+  mapPrefab: {fileID: 4029064587927198078, guid: 11e265b5893434c99becb9e98548aefd, type: 3}
+  actorPresets:
+  - ActorKey: blue-01
+    Team: 0
+    Slot: 1
+    DisplayName: actor-BotAI_04
+    Prefab: {fileID: 2136270559138900775, guid: 37eeab78871024fa3a3691466307405b, type: 3}
+    StartPosition: {x: 0, y: 0, z: 0}
+    EndPosition: {x: 0, y: 0, z: 0}
+    MoveDelay: 0
+    MoveDuration: 0
+    FaceMovement: 0
+    RotationEuler: {x: 0, y: 0, z: 0}
+  - ActorKey: blue-02
+    Team: 0
+    Slot: 2
+    DisplayName: actor-BotAI_02
+    Prefab: {fileID: 9205575093453461950, guid: 51b296099a3f948ddbf0f3489b125d49, type: 3}
+    StartPosition: {x: 0, y: 0, z: 0}
+    EndPosition: {x: 0, y: 0, z: 0}
+    MoveDelay: 0
+    MoveDuration: 0
+    FaceMovement: 0
+    RotationEuler: {x: 0, y: 0, z: 0}
+  - ActorKey: red-01
+    Team: 1
+    Slot: 1
+    DisplayName: actor-BotAI_02
+    Prefab: {fileID: 9205575093453461950, guid: 51b296099a3f948ddbf0f3489b125d49, type: 3}
+    StartPosition: {x: 0, y: 0, z: 0}
+    EndPosition: {x: 0, y: 0, z: 0}
+    MoveDelay: 0
+    MoveDuration: 0
+    FaceMovement: 0
+    RotationEuler: {x: 0, y: 0, z: 0}
+  behaviorPresets: []
+  cameraPresets: []
+  slowMotionPreset:
+    StartTime: 0
+    EndTime: 0
+    TimeScale: 1

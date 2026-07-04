@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6753a39b91eef47ffb852efa24ee481b, type: 3}
+  m_Name: skullstrike-map-starter
+  m_EditorClassIdentifier: Greenworms.Cinematics.Core::Greenworms.Cinematics.CinematicScenarioManifest
+  scenarioId: skullstrike-map-starter
+  gameId: skullstrike
+  displayName: IronClash Map Starter
+  objective: Minimal map-only SkullStrike starter bundle for editor-friendly scene
+    authoring.
+  templateId: skullstrike.scene-authoring.bundle
+  contentPackageVersion: ironclash-map-starter
+  scenePath: Assets/Campaigns/skullstrike/skullstrike-map-starter/skullstrike-map-starter.unity
+  timelinePath: Assets/Campaigns/skullstrike/skullstrike-map-starter/skullstrike-map-starter.playable
+  targetDuration: 10
+  outputFormat: 0
+  targetResolution: {x: 1920, y: 1080}
+  targetFrameRate: 60
