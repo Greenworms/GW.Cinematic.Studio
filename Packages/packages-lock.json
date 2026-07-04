@@ -7,8 +7,7 @@
       "dependencies": {
         "com.unity.timeline": "1.8.10",
         "com.unity.ugui": "2.0.0"
-      },
-      "hash": "ec9ae4c799d724d780e689ea73a289a8925c531f"
+      }
     },
     "com.greenworms.skullstrike.cinematic": {
       "version": "file:../../GW.Cinematic.SkullStrike",
