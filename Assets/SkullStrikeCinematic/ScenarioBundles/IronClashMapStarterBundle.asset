@@ -30,7 +30,7 @@ MonoBehaviour:
   - ActorKey: blue-01
     Team: 0
     Slot: 1
-    DisplayName: Hero-01
+    DisplayName: character-SkullStrike
     Prefab: {fileID: 5314363713651131725, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
     StartPosition: {x: 0, y: 0, z: -1.5}
     EndPosition: {x: 0, y: 0, z: 4.5}

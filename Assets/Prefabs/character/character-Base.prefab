@@ -472,6 +472,8 @@ MonoBehaviour:
   targets: []
   playOnEnable: 0
   useUnscaledTime: 0
+  movementTurnSpeed: 540
+  movementStopDistance: 0.01
 --- !u!114 &9120454019569979070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -486,6 +488,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Greenworms.Cinematics.Core::Greenworms.Cinematics.CinematicAnimatorPresenter
   animator: {fileID: 0}
   crossFadeDuration: 0.12
+  locomotionParameter: Speed
+  locomotionDampTime: 0.1
+  walkValue: 0.5
+  runValue: 1
 --- !u!114 &7817425644307915279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -499,8 +505,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Greenworms.Cinematics.Core::Greenworms.Cinematics.CinematicArcThrowablePresenter
   projectilePrefab: {fileID: 0}
+  explosionPrefab: {fileID: 0}
   travelDuration: 0.8
   arcHeight: 2.5
+  damage: 20
+  damageRadius: 3
+  sourceTeam: 
+  explosionLifetime: 2
 --- !u!114 &1664747950554846803
 MonoBehaviour:
   m_ObjectHideFlags: 0

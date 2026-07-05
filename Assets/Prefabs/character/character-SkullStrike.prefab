@@ -314,6 +314,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7817425644307915279, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
+      propertyPath: explosionPrefab
+      value: 
+      objectReference: {fileID: 1000010191825552, guid: 83e55d3418297934fab882559d009285, type: 3}
+    - target: {fileID: 7817425644307915279, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
       propertyPath: projectilePrefab
       value: 
       objectReference: {fileID: 1459768549681366863, guid: f11916f8185134913b161dbcfe34da51, type: 3}
@@ -337,6 +341,18 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3237809804780587607, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2535621543007630449}
+    - targetCorrespondingSourceObject: {fileID: 3237809804780587607, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2816941106675102608}
+    - targetCorrespondingSourceObject: {fileID: 3237809804780587607, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2151294026889515816}
+    - targetCorrespondingSourceObject: {fileID: 3237809804780587607, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7056510595463704929}
+    - targetCorrespondingSourceObject: {fileID: 3237809804780587607, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3314805076493609308}
     - targetCorrespondingSourceObject: {fileID: 6809565300387712813, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1694607905681341654}
@@ -408,6 +424,103 @@ MonoBehaviour:
   projectileTravelDuration: 0.12
   effectLifetime: 2
   projectileSpinDegreesPerSecond: {x: 0, y: 0, z: 720}
+  damage: 20
+  sourceTeam: 
+--- !u!114 &2816941106675102608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5314363713651131725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841df4c934e164710864d17226d8a085, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Greenworms.Cinematics.SkullStrike::Greenworms.Cinematics.SkullStrike.SkullStrikeImpactPresenter
+  impactPrefab: {fileID: 1000010191825552, guid: 83e55d3418297934fab882559d009285, type: 3}
+  impactAudioSource: {fileID: 0}
+  impactClip: {fileID: 0}
+  animator: {fileID: 4086220394741308013}
+  hitTrigger: Hit
+  lifetime: 2
+--- !u!114 &2151294026889515816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5314363713651131725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 932384b3a8da84dc6b656f3c9b3e5e45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Greenworms.Cinematics.SkullStrike::Greenworms.Cinematics.SkullStrike.SkullStrikeDeathPresenter
+  animator: {fileID: 4086220394741308013}
+  deathTrigger: Death
+  deathVfxPrefab: {fileID: 8367907410985086596, guid: 0b493b97a8e419d46903c1b023460740, type: 3}
+  heldItem: {fileID: 3653666717747321864}
+  deathVfxLifetime: 2.5
+  deathVfxOffset: {x: 0, y: 2, z: 0}
+  deathVfxScale: 1.75
+  useFallbackFall: 1
+  fallDuration: 0.75
+  verticalOffset: 0.12
+--- !u!114 &7056510595463704929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5314363713651131725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0400565d42254f0c892de33f0021be5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Greenworms.Cinematics.Core::Greenworms.Cinematics.CinematicActorHud
+  canvasPrefab: {fileID: 4648512679870123409, guid: 628b3f09d534c4e80a19cd9a27a58f77, type: 3}
+  displayName: Cinematic Character
+  localOffset: {x: 0, y: 3.25, z: 0}
+  hideDelayAfterEmpty: 0.7
+--- !u!114 &3314805076493609308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5314363713651131725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8258e7c26074cd4b69693467f624fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Greenworms.Cinematics.Core::Greenworms.Cinematics.CinematicCharacterHealth
+  maxHealth: 100
+  currentHealth: 100
+  invulnerable: 0
+  resetOnEnable: 1
+  teamId: 
+  allowFriendlyFire: 0
+  impactPresenter: {fileID: 2816941106675102608}
+  deathPresenter: {fileID: 2151294026889515816}
+  actorHud: {fileID: 7056510595463704929}
+  characterController: {fileID: 9085710034425840515}
+  hitTarget: {fileID: 6003198884063734194}
+--- !u!4 &6003198884063734194 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3918359192175142568, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
+  m_PrefabInstance: {fileID: 7291164488892387098}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9085710034425840515 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1961746841074142361, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
+  m_PrefabInstance: {fileID: 7291164488892387098}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5314363713651131725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b607a8b5f19f45458d8e3f6fff31c6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Greenworms.Cinematics.Core::Greenworms.Cinematics.CinematicCharacterController
 --- !u!1001 &8437572427000612782
 PrefabInstance:
   m_ObjectHideFlags: 0
