@@ -13,25 +13,14 @@ MonoBehaviour:
   m_Name: EnemyTarget-02-Choreography
   m_EditorClassIdentifier: Greenworms.Cinematics.Core::Greenworms.Cinematics.CinematicCharacterSequence
   actions:
-  - displayName: Group 2 delay
-    type: 4
-    startMode: 0
-    startTime: 0
-    duration: 0.35
-    targetKey: 
-    animationState: 
-    fireCount: 1
-    fireInterval: 0.12
-    useVfx: 1
-    useSfx: 1
   - displayName: Run to MoveTarget-02
     type: 0
     startMode: 0
     startTime: 0
-    duration: 3.0883296
+    duration: 6.89
     targetKey: enemy-move-02
     animationState: Run
-    fireCount: 1
+    fireCount: 5
     fireInterval: 0.12
     useVfx: 1
     useSfx: 1

@@ -492,7 +492,7 @@ MonoBehaviour:
   character: {fileID: 863121775}
   orbitCamera: {fileID: 459256408}
   firstPersonCamera: {fileID: 863121774}
-  overviewCamera: {fileID: 1618770100}
+  overviewCamera: {fileID: 0}
   weaponPresenter: {fileID: 863121769}
   hitTarget: {fileID: 0}
   orbitShotEnd: 3
@@ -547,8 +547,6 @@ PlayableDirector:
     value: {fileID: 459256407}
   - key: {fileID: -3869803102729431070, guid: 461ac911d201240ac9ca0118a64dc1d4, type: 2}
     value: {fileID: 863121772}
-  - key: {fileID: 7143898845953768229, guid: 461ac911d201240ac9ca0118a64dc1d4, type: 2}
-    value: {fileID: 1618770099}
   - key: {fileID: -8736523453599440562, guid: 461ac911d201240ac9ca0118a64dc1d4, type: 2}
     value: {fileID: 863121773}
   m_ExposedReferences:
@@ -754,7 +752,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1998815258350649764, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: crossFadeDuration
-      value: 2
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 2535621543007630449, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+      propertyPath: damage
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 2535621543007630449, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+      propertyPath: projectileTravelDuration
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2535621543007630449, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+      propertyPath: sourceTeam
+      value: hero
       objectReference: {fileID: 0}
     - target: {fileID: 5314363713651131725, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: m_Name
@@ -774,7 +784,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 2e309c99b93a646c5afe88736609cc09, type: 2}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[0].key
@@ -789,6 +799,10 @@ PrefabInstance:
       value: enemy-01
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+      propertyPath: targets.Array.data[3].key
+      value: enemy-02
+      objectReference: {fileID: 0}
+    - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[0].target
       value: 
       objectReference: {fileID: 2092827013}
@@ -800,6 +814,10 @@ PrefabInstance:
       propertyPath: targets.Array.data[2].target
       value: 
       objectReference: {fileID: 1619311500}
+    - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+      propertyPath: targets.Array.data[3].target
+      value: 
+      objectReference: {fileID: 1783232989}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -972,7 +990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!20 &1618770100
 Camera:
   m_ObjectHideFlags: 0
@@ -1101,7 +1119,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3314805076493609308, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: currentHealth
-      value: 80
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3314805076493609308, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3314805076493609308, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+      propertyPath: teamId
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5314363713651131725, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: m_Name
@@ -1334,6 +1360,18 @@ PrefabInstance:
     - target: {fileID: 5314363713651131725, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: m_Name
       value: EnemyTarget-02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3314805076493609308, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+      propertyPath: currentHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3314805076493609308, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3314805076493609308, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+      propertyPath: teamId
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7056510595463704929, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: displayName

@@ -17,7 +17,7 @@ MonoBehaviour:
     type: 0
     startMode: 0
     startTime: 0
-    duration: 4.0763164
+    duration: 3.119917
     targetKey: hero-move
     animationState: Run
     fireCount: 1
@@ -28,7 +28,7 @@ MonoBehaviour:
     type: 1
     startMode: 0
     startTime: 0
-    duration: 0.35
+    duration: 0.12
     targetKey: hero-throw
     animationState: 
     fireCount: 1
@@ -39,32 +39,22 @@ MonoBehaviour:
     type: 3
     startMode: 0
     startTime: 0
-    duration: 3
+    duration: 0.08
     targetKey: hero-throw
     animationState: throw
     fireCount: 1
     fireInterval: 0.12
     useVfx: 1
     useSfx: 1
-  - displayName: Aim at EnemyTarget-01
-    type: 1
+  - displayName: Eliminate enemy team
+    type: 5
     startMode: 0
     startTime: 0
-    duration: 0.45
-    targetKey: enemy-01
-    animationState: 
-    fireCount: 1
-    fireInterval: 0.12
-    useVfx: 1
-    useSfx: 1
-  - displayName: Fire at EnemyTarget-01
-    type: 2
-    startMode: 0
-    startTime: 0
-    duration: 0.5
-    targetKey: enemy-01
+    duration: 0.08
+    targetKey: enemy
     animationState: ShootLAN
-    fireCount: 3
-    fireInterval: 0.12
+    fireCount: 30
+    fireInterval: 0.08
+    fireUntilTargetDead: 1
     useVfx: 1
     useSfx: 1
