@@ -10,39 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e17d4c00ac194edfa7e9270d1f4d4cf, type: 3}
-  m_Name: character-Sample-Combat
+  m_Name: Hero-01-Choreography
   m_EditorClassIdentifier: Greenworms.Cinematics.Core::Greenworms.Cinematics.CinematicCharacterSequence
   actions:
-  - displayName: Move to marker
+  - displayName: Run to HeroMoveTarget-01
     type: 0
     startMode: 0
     startTime: 0
-    duration: 1.5
-    targetKey: move-01
+    duration: 4.0763164
+    targetKey: hero-move
     animationState: Run
     fireCount: 1
     fireInterval: 0.12
     useVfx: 1
     useSfx: 1
-  - displayName: Aim at enemy
+  - displayName: Face HeroThrowTarget-01
     type: 1
     startMode: 0
     startTime: 0
-    duration: 0.45
-    targetKey: enemy
-    animationState: Aim
-    fireCount: 5
-    fireInterval: 0.12
-    useVfx: 1
-    useSfx: 1
-  - displayName: Fire burst
-    type: 2
-    startMode: 0
-    startTime: 0
-    duration: 0.5
-    targetKey: enemy
-    animationState: Fire
-    fireCount: 3
+    duration: 0.35
+    targetKey: hero-throw
+    animationState: 
+    fireCount: 1
     fireInterval: 0.12
     useVfx: 1
     useSfx: 1
@@ -50,32 +39,32 @@ MonoBehaviour:
     type: 3
     startMode: 0
     startTime: 0
-    duration: 0.8
-    targetKey: throw-target
-    animationState: Throw
+    duration: 3
+    targetKey: hero-throw
+    animationState: throw
     fireCount: 1
     fireInterval: 0.12
     useVfx: 1
     useSfx: 1
-  - displayName: Hold
-    type: 4
+  - displayName: Aim at EnemyTarget-01
+    type: 1
     startMode: 0
     startTime: 0
-    duration: 0.35
-    targetKey: 
-    animationState: Idle
+    duration: 0.45
+    targetKey: enemy-01
+    animationState: 
     fireCount: 1
     fireInterval: 0.12
     useVfx: 1
     useSfx: 1
-  - displayName: Fire final shot
+  - displayName: Fire at EnemyTarget-01
     type: 2
     startMode: 0
     startTime: 0
-    duration: 0.25
-    targetKey: enemy
-    animationState: Fire
-    fireCount: 1
+    duration: 0.5
+    targetKey: enemy-01
+    animationState: ShootLAN
+    fireCount: 3
     fireInterval: 0.12
     useVfx: 1
     useSfx: 1
