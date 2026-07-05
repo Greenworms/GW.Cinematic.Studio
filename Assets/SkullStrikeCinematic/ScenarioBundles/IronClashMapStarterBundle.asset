@@ -26,40 +26,7 @@ MonoBehaviour:
   targetFrameRate: 60
   targetDuration: 10
   mapPrefab: {fileID: 4029064587927198078, guid: 11e265b5893434c99becb9e98548aefd, type: 3}
-  actorPresets:
-  - ActorKey: blue-01
-    Team: 0
-    Slot: 1
-    DisplayName: character-SkullStrike
-    Prefab: {fileID: 5314363713651131725, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
-    StartPosition: {x: 0, y: 0, z: -12}
-    EndPosition: {x: 0, y: 0, z: -12}
-    MoveDelay: 0
-    MoveDuration: 0
-    FaceMovement: 0
-    RotationEuler: {x: 0, y: 0, z: 0}
-  - ActorKey: blue-02
-    Team: 0
-    Slot: 2
-    DisplayName: character-SkullStrike
-    Prefab: {fileID: 5314363713651131725, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
-    StartPosition: {x: 0, y: 0, z: -12}
-    EndPosition: {x: 0, y: 0, z: -12}
-    MoveDelay: 0
-    MoveDuration: 0
-    FaceMovement: 0
-    RotationEuler: {x: 0, y: 0, z: 0}
-  - ActorKey: blue-03
-    Team: 0
-    Slot: 3
-    DisplayName: character-SkullStrike
-    Prefab: {fileID: 5314363713651131725, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
-    StartPosition: {x: 0, y: 0, z: -12}
-    EndPosition: {x: 0, y: 0, z: -12}
-    MoveDelay: 0
-    MoveDuration: 0
-    FaceMovement: 0
-    RotationEuler: {x: 0, y: 0, z: 0}
+  actorPresets: []
   behaviorPresets: []
   cameraPresets: []
   slowMotionPreset:
