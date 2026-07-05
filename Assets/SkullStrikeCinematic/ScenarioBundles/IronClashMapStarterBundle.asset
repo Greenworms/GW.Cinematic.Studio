@@ -30,10 +30,10 @@ MonoBehaviour:
   - ActorKey: blue-01
     Team: 0
     Slot: 1
-    DisplayName: actor-BotAI_04
-    Prefab: {fileID: 2136270559138900775, guid: 37eeab78871024fa3a3691466307405b, type: 3}
-    StartPosition: {x: 0, y: 0, z: 0}
-    EndPosition: {x: 0, y: 0, z: 0}
+    DisplayName: character-SkullStrike
+    Prefab: {fileID: 5314363713651131725, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+    StartPosition: {x: 0, y: 0, z: -12}
+    EndPosition: {x: 0, y: 0, z: -12}
     MoveDelay: 0
     MoveDuration: 0
     FaceMovement: 0
@@ -41,21 +41,21 @@ MonoBehaviour:
   - ActorKey: blue-02
     Team: 0
     Slot: 2
-    DisplayName: actor-BotAI_02
-    Prefab: {fileID: 9205575093453461950, guid: 51b296099a3f948ddbf0f3489b125d49, type: 3}
-    StartPosition: {x: 0, y: 0, z: 0}
-    EndPosition: {x: 0, y: 0, z: 0}
+    DisplayName: character-SkullStrike
+    Prefab: {fileID: 5314363713651131725, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+    StartPosition: {x: 0, y: 0, z: -12}
+    EndPosition: {x: 0, y: 0, z: -12}
     MoveDelay: 0
     MoveDuration: 0
     FaceMovement: 0
     RotationEuler: {x: 0, y: 0, z: 0}
-  - ActorKey: red-01
-    Team: 1
-    Slot: 1
-    DisplayName: actor-BotAI_02
-    Prefab: {fileID: 9205575093453461950, guid: 51b296099a3f948ddbf0f3489b125d49, type: 3}
-    StartPosition: {x: 0, y: 0, z: 0}
-    EndPosition: {x: 0, y: 0, z: 0}
+  - ActorKey: blue-03
+    Team: 0
+    Slot: 3
+    DisplayName: character-SkullStrike
+    Prefab: {fileID: 5314363713651131725, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+    StartPosition: {x: 0, y: 0, z: -12}
+    EndPosition: {x: 0, y: 0, z: -12}
     MoveDelay: 0
     MoveDuration: 0
     FaceMovement: 0

@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e17d4c00ac194edfa7e9270d1f4d4cf, type: 3}
+  m_Name: character-Sample-Combat
+  m_EditorClassIdentifier: Greenworms.Cinematics.Core::Greenworms.Cinematics.CinematicCharacterSequence
+  actions:
+  - displayName: Move to marker
+    type: 0
+    startMode: 0
+    startTime: 0
+    duration: 1.5
+    targetKey: move-01
+    animationState: Run
+    fireCount: 1
+    fireInterval: 0.12
+    useVfx: 1
+    useSfx: 1
+  - displayName: Aim at enemy
+    type: 1
+    startMode: 0
+    startTime: 0
+    duration: 0.45
+    targetKey: enemy
+    animationState: Aim
+    fireCount: 1
+    fireInterval: 0.12
+    useVfx: 1
+    useSfx: 1
+  - displayName: Fire burst
+    type: 2
+    startMode: 0
+    startTime: 0
+    duration: 0.5
+    targetKey: enemy
+    animationState: Fire
+    fireCount: 3
+    fireInterval: 0.12
+    useVfx: 1
+    useSfx: 1
+  - displayName: Throw grenade
+    type: 3
+    startMode: 0
+    startTime: 0
+    duration: 0.8
+    targetKey: throw-target
+    animationState: Throw
+    fireCount: 1
+    fireInterval: 0.12
+    useVfx: 1
+    useSfx: 1
+  - displayName: Hold
+    type: 4
+    startMode: 0
+    startTime: 0
+    duration: 0.35
+    targetKey: 
+    animationState: Idle
+    fireCount: 1
+    fireInterval: 0.12
+    useVfx: 1
+    useSfx: 1
+  - displayName: Fire final shot
+    type: 2
+    startMode: 0
+    startTime: 0
+    duration: 0.25
+    targetKey: enemy
+    animationState: Fire
+    fireCount: 1
+    fireInterval: 0.12
+    useVfx: 1
+    useSfx: 1
