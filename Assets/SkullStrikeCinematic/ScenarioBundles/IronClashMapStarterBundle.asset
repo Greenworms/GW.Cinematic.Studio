@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Greenworms.Cinematics.SkullStrike::Greenworms.Cinematics.SkullStrike.SkullStrikeScenarioBundle
   bundleId: ironclash-map-starter
   displayName: IronClash Map Starter
-  description: Minimal map-only SkullStrike starter bundle for editor-friendly scene
-    authoring.
+  description: Map_01 starter scene with reusable character, FPV, crosshair, targets,
+    cameras and Timeline.
   scenarioId: skullstrike-map-starter
   gameId: skullstrike
   templateId: skullstrike.scene-authoring.bundle
@@ -26,9 +26,59 @@ MonoBehaviour:
   targetFrameRate: 60
   targetDuration: 10
   mapPrefab: {fileID: 4029064587927198078, guid: 11e265b5893434c99becb9e98548aefd, type: 3}
-  actorPresets: []
+  actorPresets:
+  - ActorKey: blue-01
+    Team: 0
+    Slot: 1
+    DisplayName: Hero-01
+    Prefab: {fileID: 5314363713651131725, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+    StartPosition: {x: 0, y: 0, z: -1.5}
+    EndPosition: {x: 0, y: 0, z: 4.5}
+    MoveDelay: 0
+    MoveDuration: 1.5
+    FaceMovement: 1
+    RotationEuler: {x: 0, y: 0, z: 0}
   behaviorPresets: []
-  cameraPresets: []
+  cameraPresets:
+  - ShotId: Camera - Establishing Orbit
+    Kind: 1
+    StartTime: 0
+    EndTime: 3
+    Position: {x: -10, y: 9, z: -8}
+    LookAt: {x: 0, y: 1, z: 6}
+    FieldOfView: 55
+    FollowActorKey: blue-01
+    LockTargetKey: enemy
+    CameraBackOffset: 0
+    CameraUpOffset: 0
+    ControlPoints: []
+    Accelerate: 0
+  - ShotId: Camera - First Person
+    Kind: 2
+    StartTime: 3
+    EndTime: 4.5
+    Position: {x: 0, y: 0, z: 0}
+    LookAt: {x: 0, y: 0, z: 0}
+    FieldOfView: 82
+    FollowActorKey: blue-01
+    LockTargetKey: enemy
+    CameraBackOffset: 0
+    CameraUpOffset: 0
+    ControlPoints: []
+    Accelerate: 0
+  - ShotId: Camera - Overview
+    Kind: 0
+    StartTime: 4.5
+    EndTime: 10
+    Position: {x: 10, y: 7, z: -2}
+    LookAt: {x: 0, y: 1, z: 6}
+    FieldOfView: 48
+    FollowActorKey: 
+    LockTargetKey: 
+    CameraBackOffset: 0
+    CameraUpOffset: 0
+    ControlPoints: []
+    Accelerate: 0
   slowMotionPreset:
     StartTime: 0
     EndTime: 0

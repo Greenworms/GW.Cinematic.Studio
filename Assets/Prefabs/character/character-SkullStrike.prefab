@@ -204,7 +204,7 @@ PrefabInstance:
     - target: {fileID: 1961746841074142361, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
       propertyPath: muzzlePoint
       value: 
-      objectReference: {fileID: 8437572427000612784}
+      objectReference: {fileID: 9018721840678411907}
     - target: {fileID: 1961746841074142361, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
       propertyPath: weaponPresenter
       value: 
@@ -220,11 +220,11 @@ PrefabInstance:
     - target: {fileID: 5359533063115619850, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
       propertyPath: worldMuzzle
       value: 
-      objectReference: {fileID: 8437572427000612784}
+      objectReference: {fileID: 9018721840678411907}
     - target: {fileID: 5359533063115619850, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
       propertyPath: worldWeapon
       value: 
-      objectReference: {fileID: 8695180934670758160}
+      objectReference: {fileID: 3653666717747321864}
     - target: {fileID: 5359533063115619850, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
       propertyPath: hiddenInFirstPerson.Array.size
       value: 11
@@ -332,7 +332,7 @@ PrefabInstance:
       addedObject: {fileID: 7544809916886578293}
     - targetCorrespondingSourceObject: {fileID: 6243317349186358614, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8437572427000612783}
+      addedObject: {fileID: 2498265090666387821}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3237809804780587607, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
       insertIndex: -1
@@ -398,7 +398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a17f27e1f55e4483b38c314ae4573e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Greenworms.Cinematics.SkullStrike::Greenworms.Cinematics.SkullStrike.SkullStrikeWeaponPresenter
-  muzzle: {fileID: 8437572427000612784}
+  muzzle: {fileID: 9018721840678411907}
   target: {fileID: 0}
   projectilePrefab: {fileID: 8480898279440189636, guid: 1afda4f47171c4cf6b315c4fe3116bf7, type: 3}
   bulletTrailPrefab: {fileID: 4348252970990545607, guid: faf2ba6d78110a045ac43d820024abc4, type: 3}
@@ -477,18 +477,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9529dc5d84b6c426ab780fcfaeac2ef6, type: 3}
---- !u!4 &8437572427000612783 stripped
+--- !u!4 &2498265090666387821 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6319634078340308675, guid: 9529dc5d84b6c426ab780fcfaeac2ef6, type: 3}
   m_PrefabInstance: {fileID: 8437572427000612782}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &8437572427000612784 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 590157162889681197, guid: 9529dc5d84b6c426ab780fcfaeac2ef6, type: 3}
-  m_PrefabInstance: {fileID: 8437572427000612782}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8695180934670758160 stripped
+--- !u!1 &3653666717747321864 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5164548977432959910, guid: 9529dc5d84b6c426ab780fcfaeac2ef6, type: 3}
+  m_PrefabInstance: {fileID: 8437572427000612782}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9018721840678411907 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 590157162889681197, guid: 9529dc5d84b6c426ab780fcfaeac2ef6, type: 3}
   m_PrefabInstance: {fileID: 8437572427000612782}
   m_PrefabAsset: {fileID: 0}

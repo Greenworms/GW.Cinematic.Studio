@@ -9,7 +9,7 @@ network, economy or player source code.
 ## Create an advertisement
 
 1. Open with Unity 6000.3.8f1 and let Git/LFS packages finish downloading.
-2. Use `Tools > Greenworms > Cinematic Studio > New Advertisement`.
+2. Use `Tools > Greenworms > Cinematic Studio > Production > New Advertisement`.
 3. Open the generated scene under `Assets/Cinematics/Scenarios/<scenario-id>/`.
 4. Press the main Play button and watch the complete scenario.
 5. Run `Validate Active Advertisement` and `Audit Studio Release`.

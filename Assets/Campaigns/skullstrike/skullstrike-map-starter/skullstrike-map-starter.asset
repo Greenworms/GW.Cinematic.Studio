@@ -15,8 +15,8 @@ MonoBehaviour:
   scenarioId: skullstrike-map-starter
   gameId: skullstrike
   displayName: IronClash Map Starter
-  objective: Minimal map-only SkullStrike starter bundle for editor-friendly scene
-    authoring.
+  objective: Map_01 starter scene with reusable character, FPV, crosshair, targets,
+    cameras and Timeline.
   templateId: skullstrike.scene-authoring.bundle
   contentPackageVersion: ironclash-map-starter
   scenePath: Assets/Campaigns/skullstrike/skullstrike-map-starter/skullstrike-map-starter.unity
