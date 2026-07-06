@@ -386,7 +386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[0].key
@@ -394,7 +394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[1].key
-      value: enemy
+      value: enemy-fire
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[2].key
@@ -407,7 +407,7 @@ PrefabInstance:
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[1].target
       value: 
-      objectReference: {fileID: 263577422}
+      objectReference: {fileID: 764120308}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[2].target
       value: 
@@ -905,6 +905,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 732251111}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &764120307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 764120308}
+  m_Layer: 0
+  m_Name: Target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &764120308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764120307}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.39, y: 0.12, z: -2.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 769948615}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &769948614
 GameObject:
   m_ObjectHideFlags: 0
@@ -938,6 +969,7 @@ Transform:
   - {fileID: 1651009563}
   - {fileID: 235391063}
   - {fileID: 974290508}
+  - {fileID: 764120308}
   m_Father: {fileID: 1502547680}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &863121768
@@ -1026,7 +1058,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 2e309c99b93a646c5afe88736609cc09, type: 2}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.size
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[0].key
@@ -1063,7 +1095,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5314363713651131725, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 863121777}
+    - targetCorrespondingSourceObject: {fileID: 5314363713651131725, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 863121776}
   m_SourcePrefab: {fileID: 100100000, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
 --- !u!114 &863121769 stripped
 MonoBehaviour:
@@ -1112,6 +1150,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b607a8b5f19f45458d8e3f6fff31c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Greenworms.Cinematics.Core::Greenworms.Cinematics.CinematicCharacterController
+--- !u!114 &863121776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863121773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb6ef3587a1714a82b762fdbd5bc6131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Greenworms.Cinematics.SkullStrike::Greenworms.Cinematics.SkullStrike.SkullStrikeSkillStreakPresenter
+  killFeedback: {fileID: 863121777}
+  watchedEnemies:
+  - {fileID: 1619311501}
+  - {fileID: 1783232990}
+  watchedTeamId: enemy
+  scorePerKill: 1000
+  multiKillWindow: 4
+--- !u!114 &863121777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863121773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d86b26bc40aa469bb331ef1d5b7de76a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Greenworms.Cinematics.SkullStrike::Greenworms.Cinematics.SkullStrike.SkullStrikeKillFeedbackPresenter
+  killBannerSprite: {fileID: 21300000, guid: 997ac216ed59c4b10a97280c63cf5f9c, type: 3}
+  doubleKillSprite: {fileID: 21300000, guid: 59c5f6931e58c40b08a835658550c242, type: 3}
+  tripleKillSprite: {fileID: 21300000, guid: ceb893d4756474cbcbe1e61ace91823b, type: 3}
+  quadraKillSprite: {fileID: 21300000, guid: 9107d96184f17498b9e0058c1b9fc98a, type: 3}
+  megaKillSprite: {fileID: 21300000, guid: 9107d96184f17498b9e0058c1b9fc98a, type: 3}
+  killMarkerClip: {fileID: 8300000, guid: 8a7c6ad7ee25a8b4ba81f62e71dc4259, type: 3}
+  displayDuration: 2.5
 --- !u!1 &974290507
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,7 +1382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[0].key
@@ -1314,7 +1390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[1].key
-      value: enemy
+      value: enemy-move-02
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[2].key
@@ -1327,7 +1403,7 @@ PrefabInstance:
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[1].target
       value: 
-      objectReference: {fileID: 1558635370}
+      objectReference: {fileID: 764120308}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[2].target
       value: 
@@ -1515,7 +1591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[0].key
@@ -1523,7 +1599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[1].key
-      value: enemy
+      value: hero
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[2].key
@@ -1536,7 +1612,7 @@ PrefabInstance:
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[1].target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 863121770}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[2].target
       value: 
@@ -1551,6 +1627,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1096621987214330765, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
   m_PrefabInstance: {fileID: 1619311499}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1619311501 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3314805076493609308, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+  m_PrefabInstance: {fileID: 1619311499}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8258e7c26074cd4b69693467f624fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Greenworms.Cinematics.Core::Greenworms.Cinematics.CinematicCharacterHealth
 --- !u!1 &1651009562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1902,7 +1989,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[0].key
@@ -1910,7 +1997,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[1].key
-      value: enemy
+      value: hero
       objectReference: {fileID: 0}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[2].key
@@ -1923,7 +2010,7 @@ PrefabInstance:
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[1].target
       value: 
-      objectReference: {fileID: 1783232989}
+      objectReference: {fileID: 863121770}
     - target: {fileID: 9085710034425840515, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
       propertyPath: targets.Array.data[2].target
       value: 
@@ -1938,6 +2025,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1096621987214330765, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
   m_PrefabInstance: {fileID: 1783232988}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1783232990 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3314805076493609308, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+  m_PrefabInstance: {fileID: 1783232988}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8258e7c26074cd4b69693467f624fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Greenworms.Cinematics.Core::Greenworms.Cinematics.CinematicCharacterHealth
 --- !u!1 &1902275808
 GameObject:
   m_ObjectHideFlags: 0

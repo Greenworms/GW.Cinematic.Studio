@@ -29,3 +29,19 @@ MonoBehaviour:
     moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1
+  - displayName: Fire-03
+    type: 2
+    startMode: 0
+    startTime: 0
+    duration: 6.89
+    targetKey: enemy-fire
+    animationState: Run
+    fireCount: 5
+    fireInterval: 0.12
+    fireUntilTargetDead: 0
+    secondaryTargetKey: 
+    keepMovingAfterArrival: 1
+    moveWhileFiring: 1
+    moveWhileThrowing: 0
+    useVfx: 1
+    useSfx: 1

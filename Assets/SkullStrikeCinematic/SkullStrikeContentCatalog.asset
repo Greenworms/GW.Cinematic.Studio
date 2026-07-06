@@ -33,3 +33,7 @@ MonoBehaviour:
   enemyHudPrefab: {fileID: 4648512679870123409, guid: 628b3f09d534c4e80a19cd9a27a58f77, type: 3}
   crosshairSprite: {fileID: 0}
   killBannerSprite: {fileID: 21300000, guid: 997ac216ed59c4b10a97280c63cf5f9c, type: 3}
+  doubleKillSprite: {fileID: 21300000, guid: 59c5f6931e58c40b08a835658550c242, type: 3}
+  tripleKillSprite: {fileID: 21300000, guid: ceb893d4756474cbcbe1e61ace91823b, type: 3}
+  quadraKillSprite: {fileID: 21300000, guid: 9107d96184f17498b9e0058c1b9fc98a, type: 3}
+  megaKillSprite: {fileID: 21300000, guid: 9107d96184f17498b9e0058c1b9fc98a, type: 3}

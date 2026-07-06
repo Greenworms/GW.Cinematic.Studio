@@ -13,19 +13,19 @@ MonoBehaviour:
   m_Name: EnemyTarget-01-Choreography
   m_EditorClassIdentifier: Greenworms.Cinematics.Core::Greenworms.Cinematics.CinematicCharacterSequence
   actions:
-  - displayName: Walk to MoveTarget-01
+  - displayName: Run to MoveTarget-01
     type: 0
     startMode: 0
     startTime: 0
-    duration: 2.76
+    duration: 3.299917
     targetKey: enemy-move-01
     animationState: Walk
-    fireCount: 10
+    fireCount: 1
     fireInterval: 0.12
     fireUntilTargetDead: 0
     secondaryTargetKey: 
     keepMovingAfterArrival: 1
-    moveWhileFiring: 1
+    moveWhileFiring: 0
     moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1

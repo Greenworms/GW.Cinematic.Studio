@@ -23,6 +23,10 @@ MonoBehaviour:
     fireCount: 1
     fireInterval: 0.12
     fireUntilTargetDead: 0
+    secondaryTargetKey: 
+    keepMovingAfterArrival: 1
+    moveWhileFiring: 0
+    moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1
   - displayName: Face HeroThrowTarget-01
@@ -35,6 +39,10 @@ MonoBehaviour:
     fireCount: 1
     fireInterval: 0.12
     fireUntilTargetDead: 0
+    secondaryTargetKey: 
+    keepMovingAfterArrival: 1
+    moveWhileFiring: 0
+    moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1
   - displayName: Throw grenade
@@ -47,6 +55,10 @@ MonoBehaviour:
     fireCount: 1
     fireInterval: 0.12
     fireUntilTargetDead: 0
+    secondaryTargetKey: 
+    keepMovingAfterArrival: 1
+    moveWhileFiring: 0
+    moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1
   - displayName: Eliminate enemy team
@@ -59,5 +71,9 @@ MonoBehaviour:
     fireCount: 30
     fireInterval: 0.08
     fireUntilTargetDead: 1
+    secondaryTargetKey: 
+    keepMovingAfterArrival: 1
+    moveWhileFiring: 0
+    moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1
