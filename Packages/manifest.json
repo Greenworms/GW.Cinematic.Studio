@@ -3,6 +3,7 @@
     "com.greenworms.cinematic.core": "file:../../GW.Cinematic.Core",
     "com.greenworms.skullstrike.cinematic": "file:../../GW.Cinematic.SkullStrike",
     "com.unity.addressables": "2.8.1",
+    "com.unity.ai.navigation": "2.0.10",
     "com.unity.cinemachine": "2.10.5",
     "com.unity.inputsystem": "1.18.0",
     "com.unity.postprocessing": "3.5.1",

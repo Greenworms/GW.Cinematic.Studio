@@ -22,6 +22,12 @@ MonoBehaviour:
     animationState: Run
     fireCount: 1
     fireInterval: 0.12
+    fireUntilTargetDead: 0
+    secondaryTargetKey: 
+    keepMovingAfterArrival: 1
+    postArrivalMoveDuration: 0.4
+    moveWhileFiring: 0
+    moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1
   - displayName: Aim at enemy
@@ -31,8 +37,14 @@ MonoBehaviour:
     duration: 0.45
     targetKey: enemy
     animationState: Aim
-    fireCount: 5
+    fireCount: 1
     fireInterval: 0.12
+    fireUntilTargetDead: 0
+    secondaryTargetKey: 
+    keepMovingAfterArrival: 1
+    postArrivalMoveDuration: 0.4
+    moveWhileFiring: 0
+    moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1
   - displayName: Fire burst
@@ -44,6 +56,12 @@ MonoBehaviour:
     animationState: Fire
     fireCount: 3
     fireInterval: 0.12
+    fireUntilTargetDead: 0
+    secondaryTargetKey: 
+    keepMovingAfterArrival: 1
+    postArrivalMoveDuration: 0.4
+    moveWhileFiring: 0
+    moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1
   - displayName: Throw grenade
@@ -55,6 +73,12 @@ MonoBehaviour:
     animationState: Throw
     fireCount: 1
     fireInterval: 0.12
+    fireUntilTargetDead: 0
+    secondaryTargetKey: 
+    keepMovingAfterArrival: 1
+    postArrivalMoveDuration: 0.4
+    moveWhileFiring: 0
+    moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1
   - displayName: Hold
@@ -66,6 +90,12 @@ MonoBehaviour:
     animationState: Idle
     fireCount: 1
     fireInterval: 0.12
+    fireUntilTargetDead: 0
+    secondaryTargetKey: 
+    keepMovingAfterArrival: 1
+    postArrivalMoveDuration: 0.4
+    moveWhileFiring: 0
+    moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1
   - displayName: Fire final shot
@@ -77,5 +107,11 @@ MonoBehaviour:
     animationState: Fire
     fireCount: 1
     fireInterval: 0.12
+    fireUntilTargetDead: 0
+    secondaryTargetKey: 
+    keepMovingAfterArrival: 1
+    postArrivalMoveDuration: 0.4
+    moveWhileFiring: 0
+    moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1

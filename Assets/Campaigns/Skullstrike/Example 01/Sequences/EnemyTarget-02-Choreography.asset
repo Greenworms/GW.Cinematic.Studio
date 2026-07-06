@@ -17,7 +17,7 @@ MonoBehaviour:
     type: 0
     startMode: 0
     startTime: 0
-    duration: 2.4413111
+    duration: 5.7062345
     targetKey: enemy-move-02
     animationState: Run
     fireCount: 1
@@ -25,6 +25,7 @@ MonoBehaviour:
     fireUntilTargetDead: 0
     secondaryTargetKey: 
     keepMovingAfterArrival: 1
+    postArrivalMoveDuration: 0.4
     moveWhileFiring: 0
     moveWhileThrowing: 0
     useVfx: 1

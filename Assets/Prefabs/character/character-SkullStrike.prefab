@@ -209,10 +209,6 @@ PrefabInstance:
       propertyPath: weaponPresenter
       value: 
       objectReference: {fileID: 2535621543007630449}
-    - target: {fileID: 1961746841074142361, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
-      propertyPath: movementTurnSpeed
-      value: 540
-      objectReference: {fileID: 0}
     - target: {fileID: 3237809804780587607, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
       propertyPath: m_Name
       value: character-SkullStrike
@@ -318,10 +314,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7817425644307915279, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
-      propertyPath: travelDuration
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7817425644307915279, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
       propertyPath: explosionPrefab
       value: 
       objectReference: {fileID: 1000010191825552, guid: 83e55d3418297934fab882559d009285, type: 3}
@@ -333,14 +325,6 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 4086220394741308013}
-    - target: {fileID: 9120454019569979070, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
-      propertyPath: runValue
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9120454019569979070, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
-      propertyPath: walkValue
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 9120454019569979070, guid: 1ee4f612c34524639887b63ccaae8141, type: 3}
       propertyPath: locomotionDampTime
       value: 0.08

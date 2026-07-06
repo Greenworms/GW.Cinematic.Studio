@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d4f2d6b9af84b3d8e1fbf9f6f2d4a10, type: 3}
-  m_Name: IronClashMapStarterBundle
+  m_Name: IronClashNewStoryBundle
   m_EditorClassIdentifier: Greenworms.Cinematics.SkullStrike::Greenworms.Cinematics.SkullStrike.SkullStrikeScenarioBundle
-  bundleId: ironclash-map-starter
-  displayName: IronClash Map Starter
-  description: Map_01 starter scene with reusable character, FPV, crosshair, targets,
-    cameras and Timeline.
-  scenarioId: skullstrike-map-starter
+  bundleId: ironclash-new-story
+  displayName: IronClash New Story
+  description: Editor-authored Iron Clash story bundle with selected map and characters.
+  scenarioId: ironclash-new-story
   gameId: skullstrike
   templateId: skullstrike.scene-authoring.bundle
   recorderOutputFolder: Recordings/SkullStrike
@@ -25,31 +24,71 @@ MonoBehaviour:
   targetResolution: {x: 1920, y: 1080}
   targetFrameRate: 60
   targetDuration: 10
-  mapPrefab: {fileID: 4029064587927198078, guid: 11e265b5893434c99becb9e98548aefd, type: 3}
+  mapPrefab: {fileID: 8217937962799638481, guid: 5c93123ae8fab6e4a8c29fca0af05c21, type: 3}
   actorPresets:
   - ActorKey: blue-01
     Team: 0
     Slot: 1
     DisplayName: Hero-01
-    Prefab: {fileID: 5314363713651131725, guid: b0201373a07084bceb83a1cea2a5ea51, type: 3}
+    Prefab: {fileID: 4010181235093330958, guid: b28642b2b6aa94672988bc80cdb46b93, type: 3}
     StartPosition: {x: 0, y: 0, z: -1.5}
     EndPosition: {x: 0, y: 0, z: 4.5}
     MoveDelay: 0
     MoveDuration: 1.5
     FaceMovement: 1
     RotationEuler: {x: 0, y: 0, z: 0}
-  - ActorKey: blue-02
-    Team: 0
-    Slot: 2
-    DisplayName: actor-BotAI_01
+  - ActorKey: red-01
+    Team: 1
+    Slot: 1
+    DisplayName: Enemy-01
     Prefab: {fileID: 4010181235093330958, guid: b28642b2b6aa94672988bc80cdb46b93, type: 3}
-    StartPosition: {x: 8.41082, y: 0, z: 1.7174143}
-    EndPosition: {x: 8.41082, y: 0, z: 1.7174143}
+    StartPosition: {x: 0, y: 0, z: 10}
+    EndPosition: {x: 0, y: 0, z: 10}
     MoveDelay: 0
-    MoveDuration: 1.5
-    FaceMovement: 0
-    RotationEuler: {x: 0, y: 0, z: 0}
-  behaviorPresets: []
+    MoveDuration: 0.1
+    FaceMovement: 1
+    RotationEuler: {x: 0, y: 180, z: 0}
+  behaviorPresets:
+  - ActorKey: blue-01
+    TargetKey: red-01
+    Kind: 0
+    StartTime: 1
+    FireTime: 1.45
+    ImpactTime: 2.2
+    UseSlowMotion: 0
+    PointA: {x: 0, y: 0, z: 0}
+    PointB: {x: 0, y: 0, z: 0}
+    PointC: {x: 0, y: 0, z: 0}
+  - ActorKey: blue-01
+    TargetKey: red-01
+    Kind: 1
+    StartTime: 2.2
+    FireTime: 2.35
+    ImpactTime: 2.5
+    UseSlowMotion: 0
+    PointA: {x: 0, y: 0, z: 0}
+    PointB: {x: 0, y: 0, z: 0}
+    PointC: {x: 0, y: 0, z: 0}
+  - ActorKey: blue-01
+    TargetKey: red-01
+    Kind: 2
+    StartTime: 2.5
+    FireTime: 2.85
+    ImpactTime: 3.7
+    UseSlowMotion: 0
+    PointA: {x: 0, y: 0, z: 0}
+    PointB: {x: 0, y: 0, z: 0}
+    PointC: {x: 0, y: 0, z: 0}
+  - ActorKey: red-01
+    TargetKey: blue-01
+    Kind: 5
+    StartTime: 0
+    FireTime: 0
+    ImpactTime: 0
+    UseSlowMotion: 0
+    PointA: {x: 0, y: 0, z: 0}
+    PointB: {x: 0, y: 0, z: 0}
+    PointC: {x: 0, y: 0, z: 0}
   cameraPresets:
   - ShotId: Camera - Establishing Orbit
     Kind: 1
@@ -59,7 +98,7 @@ MonoBehaviour:
     LookAt: {x: 0, y: 1, z: 6}
     FieldOfView: 55
     FollowActorKey: blue-01
-    LockTargetKey: enemy
+    LockTargetKey: red-01
     CameraBackOffset: 0
     CameraUpOffset: 0
     ControlPoints: []
@@ -72,7 +111,7 @@ MonoBehaviour:
     LookAt: {x: 0, y: 0, z: 0}
     FieldOfView: 82
     FollowActorKey: blue-01
-    LockTargetKey: enemy
+    LockTargetKey: red-01
     CameraBackOffset: 0
     CameraUpOffset: 0
     ControlPoints: []
@@ -91,6 +130,6 @@ MonoBehaviour:
     ControlPoints: []
     Accelerate: 0
   slowMotionPreset:
-    StartTime: 0
-    EndTime: 0
-    TimeScale: 1
+    StartTime: 6
+    EndTime: 9.5
+    TimeScale: 0.25
