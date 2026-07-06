@@ -22,5 +22,10 @@ MonoBehaviour:
     animationState: Walk
     fireCount: 10
     fireInterval: 0.12
+    fireUntilTargetDead: 0
+    secondaryTargetKey: 
+    keepMovingAfterArrival: 1
+    moveWhileFiring: 1
+    moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1

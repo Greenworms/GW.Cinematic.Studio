@@ -22,6 +22,7 @@ MonoBehaviour:
     animationState: Run
     fireCount: 1
     fireInterval: 0.12
+    fireUntilTargetDead: 0
     useVfx: 1
     useSfx: 1
   - displayName: Face HeroThrowTarget-01
@@ -33,6 +34,7 @@ MonoBehaviour:
     animationState: 
     fireCount: 1
     fireInterval: 0.12
+    fireUntilTargetDead: 0
     useVfx: 1
     useSfx: 1
   - displayName: Throw grenade
@@ -44,6 +46,7 @@ MonoBehaviour:
     animationState: throw
     fireCount: 1
     fireInterval: 0.12
+    fireUntilTargetDead: 0
     useVfx: 1
     useSfx: 1
   - displayName: Eliminate enemy team
