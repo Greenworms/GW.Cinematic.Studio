@@ -20,7 +20,7 @@ MonoBehaviour:
     duration: 1.5
     targetKey: hero-move
     animationState: Run
-    fireCount: 30
+    fireCount: 1
     fireInterval: 0.12
     fireUntilTargetDead: 0
     secondaryTargetKey: 
@@ -52,9 +52,9 @@ MonoBehaviour:
     startMode: 0
     startTime: 0
     duration: 0.08
-    targetKey: enemy
+    targetKey: enemy1
     animationState: ShootLAN
-    fireCount: 30
+    fireCount: 1
     fireInterval: 0.12
     fireUntilTargetDead: 1
     secondaryTargetKey: 

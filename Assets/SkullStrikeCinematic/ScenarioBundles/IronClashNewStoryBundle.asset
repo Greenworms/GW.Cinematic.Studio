@@ -32,10 +32,10 @@ MonoBehaviour:
     Slot: 1
     DisplayName: Hero-01
     Prefab: {fileID: 4010181235093330958, guid: b28642b2b6aa94672988bc80cdb46b93, type: 3}
-    StartPosition: {x: 0, y: 0, z: -1.5}
-    EndPosition: {x: 0, y: 0, z: 4.5}
+    StartPosition: {x: 0, y: 0, z: -4.5}
+    EndPosition: {x: 0, y: 0, z: 2.5}
     MoveDelay: 0
-    MoveDuration: 1.5
+    MoveDuration: 1.75
     FaceMovement: 1
     RotationEuler: {x: 0, y: 0, z: 0}
   - ActorKey: red-01
@@ -43,10 +43,10 @@ MonoBehaviour:
     Slot: 1
     DisplayName: Enemy-01
     Prefab: {fileID: 4010181235093330958, guid: b28642b2b6aa94672988bc80cdb46b93, type: 3}
-    StartPosition: {x: 0, y: 0, z: 10}
-    EndPosition: {x: 0, y: 0, z: 10}
+    StartPosition: {x: 0, y: 0, z: 13}
+    EndPosition: {x: 0, y: 0, z: 8.25}
     MoveDelay: 0
-    MoveDuration: 0.1
+    MoveDuration: 1.25
     FaceMovement: 1
     RotationEuler: {x: 0, y: 180, z: 0}
   behaviorPresets:
