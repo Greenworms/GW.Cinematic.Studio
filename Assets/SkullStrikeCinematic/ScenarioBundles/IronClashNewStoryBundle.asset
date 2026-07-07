@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Greenworms.Cinematics.SkullStrike::Greenworms.Cinematics.SkullStrike.SkullStrikeScenarioBundle
   bundleId: ironclash-new-story
   displayName: IronClash New Story
-  description: Editor-authored Iron Clash story bundle with selected map and characters.
+  description: Editor-authored Iron Clash story bundle with selected map, characters,
+    camera scenario and combat sequence.
   scenarioId: ironclash-new-story
   gameId: skullstrike
   templateId: skullstrike.scene-authoring.bundle
@@ -24,7 +25,7 @@ MonoBehaviour:
   targetResolution: {x: 1920, y: 1080}
   targetFrameRate: 60
   targetDuration: 10
-  mapPrefab: {fileID: 8217937962799638481, guid: 5c93123ae8fab6e4a8c29fca0af05c21, type: 3}
+  mapPrefab: {fileID: 8584053736607127851, guid: 3e27b0ceafb3948dca3252a72c980ea6, type: 3}
   actorPresets:
   - ActorKey: blue-01
     Team: 0
@@ -51,10 +52,20 @@ MonoBehaviour:
   behaviorPresets:
   - ActorKey: blue-01
     TargetKey: red-01
+    Kind: 2
+    StartTime: 2.2
+    FireTime: 2.6
+    ImpactTime: 3.5
+    UseSlowMotion: 0
+    PointA: {x: 0, y: 0, z: 0}
+    PointB: {x: 0, y: 0, z: 0}
+    PointC: {x: 0, y: 0, z: 0}
+  - ActorKey: blue-01
+    TargetKey: red-01
     Kind: 0
-    StartTime: 1
-    FireTime: 1.45
-    ImpactTime: 2.2
+    StartTime: 0.5
+    FireTime: 0.9
+    ImpactTime: 1.2
     UseSlowMotion: 0
     PointA: {x: 0, y: 0, z: 0}
     PointB: {x: 0, y: 0, z: 0}
@@ -62,51 +73,18 @@ MonoBehaviour:
   - ActorKey: blue-01
     TargetKey: red-01
     Kind: 1
-    StartTime: 2.2
-    FireTime: 2.35
-    ImpactTime: 2.5
-    UseSlowMotion: 0
-    PointA: {x: 0, y: 0, z: 0}
-    PointB: {x: 0, y: 0, z: 0}
-    PointC: {x: 0, y: 0, z: 0}
-  - ActorKey: blue-01
-    TargetKey: red-01
-    Kind: 2
-    StartTime: 2.5
-    FireTime: 2.85
-    ImpactTime: 3.7
-    UseSlowMotion: 0
-    PointA: {x: 0, y: 0, z: 0}
-    PointB: {x: 0, y: 0, z: 0}
-    PointC: {x: 0, y: 0, z: 0}
-  - ActorKey: red-01
-    TargetKey: blue-01
-    Kind: 5
-    StartTime: 0
-    FireTime: 0
-    ImpactTime: 0
+    StartTime: 1.4
+    FireTime: 1.8
+    ImpactTime: 2.1
     UseSlowMotion: 0
     PointA: {x: 0, y: 0, z: 0}
     PointB: {x: 0, y: 0, z: 0}
     PointC: {x: 0, y: 0, z: 0}
   cameraPresets:
-  - ShotId: Camera - Establishing Orbit
-    Kind: 1
-    StartTime: 0
-    EndTime: 3
-    Position: {x: -10, y: 9, z: -8}
-    LookAt: {x: 0, y: 1, z: 6}
-    FieldOfView: 55
-    FollowActorKey: blue-01
-    LockTargetKey: red-01
-    CameraBackOffset: 0
-    CameraUpOffset: 0
-    ControlPoints: []
-    Accelerate: 0
-  - ShotId: Camera - First Person
+  - ShotId: Camera - Hero First Person
     Kind: 2
-    StartTime: 3
-    EndTime: 4.5
+    StartTime: 0
+    EndTime: 10
     Position: {x: 0, y: 0, z: 0}
     LookAt: {x: 0, y: 0, z: 0}
     FieldOfView: 82
@@ -116,20 +94,7 @@ MonoBehaviour:
     CameraUpOffset: 0
     ControlPoints: []
     Accelerate: 0
-  - ShotId: Camera - Overview
-    Kind: 0
-    StartTime: 4.5
-    EndTime: 10
-    Position: {x: 10, y: 7, z: -2}
-    LookAt: {x: 0, y: 1, z: 6}
-    FieldOfView: 48
-    FollowActorKey: 
-    LockTargetKey: 
-    CameraBackOffset: 0
-    CameraUpOffset: 0
-    ControlPoints: []
-    Accelerate: 0
   slowMotionPreset:
-    StartTime: 6
-    EndTime: 9.5
-    TimeScale: 0.25
+    StartTime: 0
+    EndTime: 0
+    TimeScale: 1

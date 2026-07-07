@@ -15,7 +15,8 @@ MonoBehaviour:
   scenarioId: ironclash-new-story
   gameId: skullstrike
   displayName: IronClash New Story
-  objective: Editor-authored Iron Clash story bundle with selected map and characters.
+  objective: Editor-authored Iron Clash story bundle with selected map, characters,
+    camera scenario and combat sequence.
   templateId: skullstrike.scene-authoring.bundle
   contentPackageVersion: ironclash-new-story
   scenePath: Assets/Campaigns/skullstrike/ironclash-new-story/ironclash-new-story.unity
