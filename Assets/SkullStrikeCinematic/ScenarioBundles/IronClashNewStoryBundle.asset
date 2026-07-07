@@ -25,7 +25,7 @@ MonoBehaviour:
   targetResolution: {x: 1920, y: 1080}
   targetFrameRate: 60
   targetDuration: 10
-  mapPrefab: {fileID: 8584053736607127851, guid: 3e27b0ceafb3948dca3252a72c980ea6, type: 3}
+  mapPrefab: {fileID: 8217937962799638481, guid: 5c93123ae8fab6e4a8c29fca0af05c21, type: 3}
   actorPresets:
   - ActorKey: blue-01
     Team: 0

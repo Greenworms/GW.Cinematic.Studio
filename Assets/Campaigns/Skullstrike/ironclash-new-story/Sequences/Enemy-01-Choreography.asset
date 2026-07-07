@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e17d4c00ac194edfa7e9270d1f4d4cf, type: 3}
-  m_Name: Hero-01-Choreography
+  m_Name: Enemy-01-Choreography
   m_EditorClassIdentifier: Greenworms.Cinematics.Core::Greenworms.Cinematics.CinematicCharacterSequence
   actions:
-  - displayName: Run to HeroMoveTarget-01
+  - displayName: Enemy move
     type: 0
     startMode: 0
     startTime: 0
-    duration: 2.9828143
-    targetKey: hero-move
-    animationState: Run
+    duration: 3
+    targetKey: enemy-move
+    animationState: move
     fireCount: 1
-    fireInterval: 0.12
+    fireInterval: 0.5
     fireUntilTargetDead: 0
     secondaryTargetKey: 
     keepMovingAfterArrival: 1
@@ -30,50 +30,16 @@ MonoBehaviour:
     moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1
-  - displayName: Face HeroThrowTarget-01
+  - displayName: Face Hero
     type: 1
     startMode: 0
     startTime: 0
-    duration: 0.12
-    targetKey: hero-throw
+    duration: 0.18
+    targetKey: hero
     animationState: 
     fireCount: 1
     fireInterval: 0.12
     fireUntilTargetDead: 0
-    secondaryTargetKey: 
-    keepMovingAfterArrival: 1
-    postArrivalMoveDuration: 0.4
-    moveWhileFiring: 0
-    moveWhileThrowing: 0
-    useVfx: 1
-    useSfx: 1
-  - displayName: Throw grenade
-    type: 3
-    startMode: 0
-    startTime: 0
-    duration: 0.08
-    targetKey: hero-throw
-    animationState: throw
-    fireCount: 1
-    fireInterval: 0.12
-    fireUntilTargetDead: 0
-    secondaryTargetKey: 
-    keepMovingAfterArrival: 1
-    postArrivalMoveDuration: 0.4
-    moveWhileFiring: 0
-    moveWhileThrowing: 0
-    useVfx: 1
-    useSfx: 1
-  - displayName: Eliminate enemy team
-    type: 5
-    startMode: 0
-    startTime: 0
-    duration: 0.08
-    targetKey: enemy
-    animationState: ShootLAN
-    fireCount: 30
-    fireInterval: 1
-    fireUntilTargetDead: 1
     secondaryTargetKey: 
     keepMovingAfterArrival: 1
     postArrivalMoveDuration: 0.4
