@@ -30,6 +30,7 @@ MonoBehaviour:
     moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1
+    headshot: 0
   - displayName: Face Hero
     type: 1
     startMode: 0
@@ -47,6 +48,7 @@ MonoBehaviour:
     moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1
+    headshot: 0
   - displayName: Enemy Fire
     type: 2
     startMode: 1
@@ -64,3 +66,4 @@ MonoBehaviour:
     moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1
+    headshot: 0

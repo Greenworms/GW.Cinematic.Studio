@@ -30,6 +30,7 @@ MonoBehaviour:
     moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1
+    headshot: 0
   - displayName: Aim at Enemy
     type: 1
     startMode: 0
@@ -47,6 +48,7 @@ MonoBehaviour:
     moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1
+    headshot: 0
   - displayName: Shoot Enemy
     type: 5
     startMode: 0
@@ -64,3 +66,4 @@ MonoBehaviour:
     moveWhileThrowing: 0
     useVfx: 1
     useSfx: 1
+    headshot: 1

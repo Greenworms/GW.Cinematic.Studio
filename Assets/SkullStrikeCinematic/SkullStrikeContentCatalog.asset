@@ -26,9 +26,93 @@ MonoBehaviour:
   muzzleFlashPrefab: {fileID: 3586260925981427000, guid: 5372c143fb9d8f046a6632b14eac0a42, type: 3}
   impactPrefab: {fileID: 1000010191825552, guid: 83e55d3418297934fab882559d009285, type: 3}
   deathVfxPrefab: {fileID: 8367907410985086596, guid: 0b493b97a8e419d46903c1b023460740, type: 3}
+  deathVfxPresets:
+  - prefab: {fileID: 8367907410985086596, guid: 0b493b97a8e419d46903c1b023460740, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 4062496106243499295, guid: 304da8401b8ea6849b9f5f96f0f6eb57, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 6520436353736122353, guid: 117624082503aad42847c41c2da7e8da, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 4163018424492857928, guid: 7a4dafba55b072242922877df48ee59c, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 8063331690356840624, guid: b41270eb23a4ab54e969511b33362501, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 8814787579770015478, guid: 11b2461f6c6455348b1bd605d25f7753, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 7403103098228120956, guid: 513099c3c135b01439895582ca4ec420, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 5094046088325549080, guid: 5193592141f1fad4eba8dbe541335509, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 8771702518043509366, guid: 363e28624da9f7e47a10cf1530b83692, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 575319445162951685, guid: b7e5061752aa1fa48b86d205d34abf7f, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 5875405173272680704, guid: 7892240fff4091040bb6847cec808885, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 2390776011460354647, guid: 0302d9ba763f05f44a876c6dca82b155, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 7452553202921276299, guid: 84d71e12a413ef547a148cc2cfa5eb86, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 188448375238001462, guid: ceb284bdb4a67b6479894ab011885e9e, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 8970668011737306692, guid: 286aeb44d763d664ba22fff60e040c42, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 2584144885890085385, guid: 0cce6157f975eee4dbb229fa00f63747, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 6111780402021197910, guid: 6c3f332676c9b7146a16b045cf9a680a, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 6157270102771017079, guid: dbaa043ffb682f24c926735fc6f1ca8b, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 5033180708955247871, guid: 152689d6752175f4fa353ae19681fb33, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
+  - prefab: {fileID: 3784945155588612436, guid: b33d991b542eaae4bb87332955c73ce0, type: 3}
+    lifetime: 2
+    worldOffset: {x: 0, y: 2, z: 0}
+    uniformScaleRange: {x: 1.5, y: 2}
   fireClip: {fileID: 8300000, guid: 80fcb1a77cae6c0498a4ab521473acb6, type: 3}
   impactClip: {fileID: 0}
+  hitMarkerClip: {fileID: 8300000, guid: c4a9546ce0a50974a8548732990e5a73, type: 3}
+  headshotMarkerClip: {fileID: 8300000, guid: c4a9546ce0a50974a8548732990e5a73, type: 3}
   killMarkerClip: {fileID: 8300000, guid: 8a7c6ad7ee25a8b4ba81f62e71dc4259, type: 3}
+  confirmedKillClip: {fileID: 0}
   footstepClips: []
   enemyHudPrefab: {fileID: 4648512679870123409, guid: 628b3f09d534c4e80a19cd9a27a58f77, type: 3}
   crosshairSprite: {fileID: 0}
