@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6753a39b91eef47ffb852efa24ee481b, type: 3}
+  m_Name: new-character-story-manifest
+  m_EditorClassIdentifier: Greenworms.Cinematics.Core::Greenworms.Cinematics.CinematicScenarioManifest
+  scenarioId: new-character-story
+  gameId: Skullstrike
+  displayName: New Character Story
+  objective: 
+  templateId: character-story
+  contentPackageVersion: new-character-story
+  scenePath: Assets/Campaigns/Skullstrike/CharacterStories/new-character-story/new-character-story.unity
+  timelinePath: Assets/Campaigns/Skullstrike/CharacterStories/new-character-story/new-character-story.playable
+  targetDuration: 15
+  outputFormat: 0
+  targetResolution: {x: 1920, y: 1080}
+  targetFrameRate: 60

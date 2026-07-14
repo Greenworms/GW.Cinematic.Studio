@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e2dc763090c46dc9b4e736c6b8d689, type: 3}
+  m_Name: new-character-story-story
+  m_EditorClassIdentifier: Greenworms.Cinematics.SkullStrike.CharacterStory::Greenworms.Cinematics.SkullStrike.CharacterStory.SkullStrikeCharacterStoryDefinition
+  schemaVersion: 1
+  storyId: new-character-story
+  displayName: New Character Story
+  description: 
+  targetDuration: 15
+  language: vi
+  mapPrefab: {fileID: 9082898863153739429, guid: da4dd782f604e7244a9ab304785bfc44, type: 3}
+  outputFormat: 0
+  targetResolution: {x: 1920, y: 1080}
+  targetFrameRate: 60
+  cast:
+  - actorKey: actor-1
+    displayName: Actor 1
+    role: 0
+    actorPrefab: {fileID: 4010181235093330958, guid: b28642b2b6aa94672988bc80cdb46b93, type: 3}
+    dialogueProfile: {fileID: 11400000, guid: 7dd4574b0875147e0bea8a043a5b96e8, type: 2}
+    startPosition: {x: 100, y: 100, z: 0}
+    startRotationEuler: {x: 0, y: 0, z: 0}
+  - actorKey: actor-2
+    displayName: Actor 2
+    role: 1
+    actorPrefab: {fileID: 2136270559138900775, guid: 37eeab78871024fa3a3691466307405b, type: 3}
+    dialogueProfile: {fileID: 11400000, guid: 7dd4574b0875147e0bea8a043a5b96e8, type: 2}
+    startPosition: {x: -1.7396072, y: 8.309636, z: 3.3496203}
+    startRotationEuler: {x: 0, y: 300, z: 0}
+  dialogueBeats:
+  - beatId: beat-01
+    speakerKey: actor-1
+    listenerKey: actor-2
+    lookTargetKey: actor-2
+    subtitleText: "Xin ch\xE0o b\u1EA1n"
+    startMode: 0
+    startTime: 0
+    durationPolicy: 0
+    duration: 3
+    voiceClip: {fileID: 0}
+    emotionTag: 
+    gestureId: 
+    subtitleStyleId: default
+    cameraInstruction:
+      kind: 1
+      subjectKey: actor-1
+      lookTargetKey: actor-2
+      fieldOfView: 48
+      positionOffset: {x: 0, y: 0, z: 0}
+      lookOffset: {x: 0, y: 1.4, z: 0}
+  - beatId: beat-02
+    speakerKey: actor-2
+    listenerKey: actor-1
+    lookTargetKey: actor-1
+    subtitleText: Toi co the giup gi cho ban
+    startMode: 0
+    startTime: 3
+    durationPolicy: 0
+    duration: 2
+    voiceClip: {fileID: 0}
+    emotionTag: 
+    gestureId: 
+    subtitleStyleId: default
+    cameraInstruction:
+      kind: 0
+      subjectKey: actor-2
+      lookTargetKey: actor-1
+      fieldOfView: 48
+      positionOffset: {x: 0, y: 0, z: 0}
+      lookOffset: {x: 0, y: 1.4, z: 0}
+  - beatId: beat-03
+    speakerKey: actor-1
+    listenerKey: actor-2
+    lookTargetKey: actor-2
+    subtitleText: Toi dang can tim doi thu
+    startMode: 0
+    startTime: 5
+    durationPolicy: 0
+    duration: 2
+    voiceClip: {fileID: 0}
+    emotionTag: 
+    gestureId: 
+    subtitleStyleId: default
+    cameraInstruction:
+      kind: 0
+      subjectKey: actor-1
+      lookTargetKey: actor-2
+      fieldOfView: 48
+      positionOffset: {x: 0, y: 0, z: 0}
+      lookOffset: {x: 0, y: 1.4, z: 0}
+  - beatId: beat-04
+    speakerKey: actor-2
+    listenerKey: actor-1
+    lookTargetKey: actor-1
+    subtitleText: Ban muon doi thu nhu nao
+    startMode: 0
+    startTime: 7
+    durationPolicy: 0
+    duration: 2
+    voiceClip: {fileID: 0}
+    emotionTag: 
+    gestureId: 
+    subtitleStyleId: default
+    cameraInstruction:
+      kind: 0
+      subjectKey: actor-2
+      lookTargetKey: actor-1
+      fieldOfView: 48
+      positionOffset: {x: 0, y: 0, z: 0}
+      lookOffset: {x: 0, y: 1.4, z: 0}
+  - beatId: beat-05
+    speakerKey: actor-1
+    listenerKey: actor-2
+    lookTargetKey: actor-2
+    subtitleText: Mot ke dien khung nhat
+    startMode: 0
+    startTime: 0
+    durationPolicy: 0
+    duration: 1
+    voiceClip: {fileID: 0}
+    emotionTag: 
+    gestureId: 
+    subtitleStyleId: default
+    cameraInstruction:
+      kind: 0
+      subjectKey: actor-1
+      lookTargetKey: actor-2
+      fieldOfView: 48
+      positionOffset: {x: 0, y: 0, z: 0}
+      lookOffset: {x: 0, y: 1.4, z: 0}
+  - beatId: beat-06
+    speakerKey: actor-2
+    listenerKey: actor-1
+    lookTargetKey: actor-1
+    subtitleText: Vay hay theo toi nga
+    startMode: 0
+    startTime: 8
+    durationPolicy: 0
+    duration: 1
+    voiceClip: {fileID: 0}
+    emotionTag: 
+    gestureId: 
+    subtitleStyleId: default
+    cameraInstruction:
+      kind: 0
+      subjectKey: actor-2
+      lookTargetKey: actor-1
+      fieldOfView: 48
+      positionOffset: {x: 0, y: 0, z: 0}
+      lookOffset: {x: 0, y: 1.4, z: 0}
