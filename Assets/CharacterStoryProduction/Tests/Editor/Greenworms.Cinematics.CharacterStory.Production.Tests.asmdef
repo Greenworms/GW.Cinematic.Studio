@@ -1,0 +1,23 @@
+{
+  "name": "Greenworms.Cinematics.CharacterStory.Production.Tests",
+  "rootNamespace": "Greenworms.Cinematics.CharacterStory.Production.Tests",
+  "references": [
+    "Greenworms.Cinematics.Core",
+    "Greenworms.Cinematics.CharacterStory.Production",
+    "Greenworms.Cinematics.SkullStrike.CharacterStory",
+    "Greenworms.Cinematics.SkullStrike.CharacterStory.Editor",
+    "Greenworms.Cinematics.CharacterStory.Production.Editor",
+    "CutsceneEngine",
+    "Unity.Timeline",
+    "Unity.TextMeshPro"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "autoReferenced": false,
+  "overrideReferences": false,
+  "noEngineReferences": false
+}

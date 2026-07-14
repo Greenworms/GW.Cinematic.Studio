@@ -1,0 +1,14 @@
+{
+  "name": "Greenworms.Cinematics.CharacterStory.Spike.Editor",
+  "rootNamespace": "Greenworms.Cinematics.CharacterStory.Spike.Editor",
+  "references": [
+    "CutsceneEngine",
+    "Unity.Timeline",
+    "Unity.TextMeshPro",
+    "Unity.ugui"
+  ],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true,
+  "overrideReferences": false,
+  "noEngineReferences": false
+}

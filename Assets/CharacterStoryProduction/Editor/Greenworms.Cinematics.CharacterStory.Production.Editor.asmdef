@@ -1,0 +1,20 @@
+{
+  "name": "Greenworms.Cinematics.CharacterStory.Production.Editor",
+  "rootNamespace": "Greenworms.Cinematics.CharacterStory.Production.Editor",
+  "references": [
+    "Greenworms.Cinematics.Core",
+    "Greenworms.Cinematics.CharacterStory.Production",
+    "Greenworms.Cinematics.SkullStrike.CharacterStory",
+    "Greenworms.Cinematics.SkullStrike.CharacterStory.Editor",
+    "CutsceneEngine",
+    "Unity.Timeline",
+    "Unity.TextMeshPro",
+    "Unity.ugui"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": false,
+  "overrideReferences": false,
+  "noEngineReferences": false
+}

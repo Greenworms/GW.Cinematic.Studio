@@ -1,0 +1,11 @@
+{
+  "name": "Greenworms.Cinematics.CharacterStory.Production",
+  "rootNamespace": "Greenworms.Cinematics.CharacterStory.Production",
+  "references": [
+    "Greenworms.Cinematics.SkullStrike.CharacterStory",
+    "Unity.Timeline"
+  ],
+  "autoReferenced": false,
+  "overrideReferences": false,
+  "noEngineReferences": false
+}
